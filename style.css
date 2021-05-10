@@ -91,46 +91,48 @@ img {
   }
 
   #lezioni .row {
-    background-color: #eeeea3;
+    background-color: #f7eebf;
+    padding-bottom: 15px;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100%;
-  padding-top: 15px;
+    width: 100%;
+    padding-top: 15px;
   }
 
   #steps .row {
     background-color: #fafad2;
+    padding-bottom: 15px;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
   width: 100%;
-  padding-bottom: 10px;
+  padding-top: 15px;
   }
 
   #why .row {
-    background-color: #eeeea3;
+    background-color: #f7eebf;
+    padding-bottom: 15px;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
   width: 100%;
-  margin-top: 10px;
-}
+  margin: 0;
+  padding-top: 15px;
+  }
 
   #lezioni .row img,
   #why .row img,
   #steps .row img {
-    height: 70px;
+    height: 25vw;
   }
 
   #why .row img {
     padding: 5px;
   }
-
-
 }

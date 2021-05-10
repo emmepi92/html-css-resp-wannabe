@@ -83,7 +83,7 @@ img {
 
 /* esercizio  */
 
-@media screen and (max-width: 534px) {
+@media screen and (max-width: 559px) {
     * {
         box-sizing: border-box;
         padding: 0;
@@ -134,7 +134,7 @@ img {
 
 /* bonus  */
 
-@media screen and (min-width: 535px) and (max-width: 800px) {
+@media screen and (min-width: 560px) and (max-width: 800px) {
     .row {
         width: 100%;
         margin-top: 20px;
@@ -159,9 +159,15 @@ img {
     #why .row>.third {
         flex-direction: row-reverse;
     }
-    #lezioni .row img {
+    #lezioni .row img,
+    #why .row img,
+    #steps .row img {
+        height: 30vw;
         flex-basis: 50%;
         flex-grow: 0;
+    }
+    #why .row img {
+        padding: 20px;
     }
     #lezioni .row h3,
     #steps .row h3,

@@ -152,6 +152,7 @@ img {
         display: flex;
         align-items: center;
         margin-top: 0;
+        justify-content: flex-start;
     }
     #lezioni .row>.right,
     #steps .row>.central,
@@ -164,7 +165,6 @@ img {
     #steps .row img {
         height: 30vw;
         flex-basis: 50%;
-        flex-grow: 0;
     }
     #why .row img {
         padding: 20px;
@@ -173,8 +173,6 @@ img {
     #steps .row h3,
     #why .row h3 {
         flex-basis: 30%;
-        flex-grow: 2;
         padding: 15px;
-        flex-grow: 0;
     }
 }

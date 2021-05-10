@@ -83,7 +83,7 @@ img {
 
 /* esercizio  */
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 534px) {
     * {
         box-sizing: border-box;
         padding: 0;
@@ -134,7 +134,7 @@ img {
 
 /* bonus  */
 
-@media screen and (min-width: 420px) and (max-width: 800px) {
+@media screen and (min-width: 535px) and (max-width: 800px) {
     .row {
         width: 100%;
         margin-top: 20px;
@@ -161,6 +161,7 @@ img {
     }
     #lezioni .row img {
         flex-basis: 50%;
+        flex-grow: 0;
     }
     #lezioni .row h3,
     #steps .row h3,
@@ -168,5 +169,6 @@ img {
         flex-basis: 30%;
         flex-grow: 2;
         padding: 15px;
+        flex-grow: 0;
     }
 }

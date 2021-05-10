@@ -73,7 +73,7 @@ img {
 }
 
 /* esercizio  */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 419px) {
 * {
   box-sizing: border-box;
   padding: 0;
@@ -125,7 +125,7 @@ img {
   #lezioni .row img,
   #why .row img,
   #steps .row img {
-    height: 80px;
+    height: 70px;
   }
 
   #why .row img {

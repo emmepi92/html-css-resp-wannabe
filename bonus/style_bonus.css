@@ -176,3 +176,10 @@ img {
         padding: 15px;
     }
 }
+
+@media screen and (min-width: 801px) {
+    .row {
+        max-width: 992px;
+        width: 100%;
+    }
+}
